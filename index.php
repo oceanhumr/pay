@@ -20,4 +20,4 @@ $orderinfo=array(
 			"show_url"			=> "this is goods show url",
 );
 $pay->get_order_detail($orderinfo);
-echo 1323;
+echo 12;
