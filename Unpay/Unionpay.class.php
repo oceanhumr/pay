@@ -2,6 +2,7 @@
 namespace Pay\Unpay;
 use Pay\PayBase;
 require_once dirname(__DIR__).DIRECTORY_SEPARATOR.'PayBase.class.php';
+require_once 'UnionUtil.class.php';
 class Unpay implements PayBase{
 	//证书路径
 	const SDK_SIGN_CERT_PATH='';
@@ -103,26 +104,7 @@ class Unpay implements PayBase{
 		}
 
 	}
-
-	/**签名验证
-	 * @param $params
-	 */
-	private function sign($params){
-		$params ['certId'] = $this->getSignCertId (SDK_SIGN_CERT_PATH, SDK_SIGN_CERT_PWD); //证书ID
-		sign($params, SDK_SIGN_CERT_PATH, SDK_SIGN_CERT_PWD);
-	}
-
-	private function getSignCertId($cert_path, $cert_pwd) {
-	$pkcs12certdata = file_get_contents ( $cert_path );
-	openssl_pkcs12_read ( $pkcs12certdata, $certs, $cert_pwd );
-	$x509data = $certs ['cert'];
-	openssl_x509_read ( $x509data );
-	$certdata = openssl_x509_parse ( $x509data );
-	$cert_id = $certdata ['serialNumber'];
-	return $cert_id;
-}
-
-
+	
 	public function initiate_h5($orderinfo){
 		//h5的处理方法nt.pay_form.submit();">
 		$encodeType ='UTF-8';
@@ -143,8 +125,7 @@ eot;
 </body>
 <ml>
 eot;
-//		global $log;
-//		$log->LogInfo ( "自动跳转html>" . $html );
+
 		return $html;
 	}
 
@@ -157,5 +138,10 @@ eot;
 	public function initiate_native($orderinfo){
 		//扫码
 	}
+
+	
+
+
+	
 	
 }
