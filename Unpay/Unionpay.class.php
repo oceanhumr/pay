@@ -1,7 +1,7 @@
 <?php
 namespace Pay\Unpay;
 use Pay\PayBase;
-require_once dirname(__DIR__).DIRECTORY_SEPARATOR.'PayBase.class.php';
+require_once dirname(__DIR__) . DIRECTORY_SEPARATOR;
 require_once 'UnionUtil.class.php';
 class Unpay implements PayBase{
 	

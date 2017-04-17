@@ -6,7 +6,7 @@ $options=array(
 	 		'goods_type'=>'buy',
  			'pay_type'=>'jishi'
 	 );
-$pay=new Pay('alipay', $options);
+$pay=new Pay('Alipay', $options);
 
 $orderinfo=array(
 			'ordersn'=>'201227020125',

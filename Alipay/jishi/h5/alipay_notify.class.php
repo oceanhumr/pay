@@ -20,11 +20,11 @@ class AlipayNotify {
     /**
      * HTTPS形式消息验证地址
      */
-	var $https_verify_url = 'https://mapi.alipay.com/gateway.do?service=notify_verify&';
+	var $https_verify_url = 'https://mapi.Alipay.com/gateway.do?service=notify_verify&';
 	/**
      * HTTP形式消息验证地址
      */
-	var $http_verify_url = 'http://notify.alipay.com/trade/notify_query.do?';
+	var $http_verify_url = 'http://notify.Alipay.com/trade/notify_query.do?';
 	var $alipay_config;
 
 	function __construct($alipay_config){
