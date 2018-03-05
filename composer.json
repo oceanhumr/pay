@@ -1,0 +1,13 @@
+{
+    "name": "ocean/pay",
+    "description": "常用支付统一封装",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Mr.Hu",
+            "email": "huhaiyang7788@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
