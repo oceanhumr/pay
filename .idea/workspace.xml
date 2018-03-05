@@ -2,132 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bc3ddf-9aae-4d63-be1d-20c4a4950ef7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Pay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PayInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/Alipay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/Unpay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/Wxpay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/Yeepay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/Alipay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/AlipayNotify.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/AlipaySubmit.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/AopClient.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/AopEncrypt.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/alipay_core.function.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/alipay_md5.function.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/alipay_rsa.function.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/POSTGC.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small_5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small_6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small_7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/1/bank_small_8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/ABC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/BOCB2C.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/CCB.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/CIB.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/CMB.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/COMM-DEBIT.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/COMM-DEBIT2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/ICBCB2C.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/POSTGC.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/bankimg/SPDB.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/alipay/cacert.pem" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/unpay/Common.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/unpay/UnionUtil.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/unpay/Unionpay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/unpay/unpay.config.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/SDKRuntimeException.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/WxPay.pub.config.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/WxPayPubHelper.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/Wxpay.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/jquery-2.0.3.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/log_.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/qrcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/wxpay/tmp.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/HttpClient.class.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/callback.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/cancelOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/merchantProperties.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/payOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/queryOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/queryRefund.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/refundOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/sendCancelOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/sendPayOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/sendQueryOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/sendQueryRefund.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/sendRefundOrd.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/driver/yeepay/yeepayCommon.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tool/Base.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tool/Factory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tool/Loader.php" />
-      <change beforePath="$PROJECT_DIR$/pay/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/Pay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/PayInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/Alipay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/Unpay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/Wxpay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/Yeepay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/Alipay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/AlipayNotify.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/AlipaySubmit.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/AopClient.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/AopEncrypt.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/alipay_core.function.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/alipay_md5.function.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/alipay_rsa.function.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/POSTGC.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/1/bank_small_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/ABC.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/BOCB2C.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/CCB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/CIB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/CMB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/COMM-DEBIT.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/COMM-DEBIT2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/ICBCB2C.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/POSTGC.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/bankimg/SPDB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/alipay/cacert.pem" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/unpay/Common.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/unpay/UnionUtil.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/unpay/Unionpay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/unpay/unpay.config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/SDKRuntimeException.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/WxPay.pub.config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/WxPayPubHelper.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/Wxpay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/jquery-2.0.3.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/log_.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/qrcode.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/wxpay/tmp.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/HttpClient.class.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/callback.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/cancelOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/merchantProperties.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/payOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/queryOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/queryRefund.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/refundOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/sendCancelOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/sendPayOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/sendQueryOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/sendQueryRefund.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/sendRefundOrd.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/driver/yeepay/yeepayCommon.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/tool/Base.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/tool/Factory.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pay/src/tool/Loader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -228,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -238,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -273,6 +148,7 @@
         <option value="$PROJECT_DIR$/pay/src/driver/unpay/Unionpay.php" />
         <option value="$PROJECT_DIR$/pay/src/driver/unpay/UnionUtil.php" />
         <option value="$PROJECT_DIR$/pay/src/driver/unpay/unpay.config.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -311,11 +187,6 @@
             <path>
               <item name="payAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="payAll" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="payAll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="payAll" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -364,17 +235,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520220029321</updated>
-      <workItem from="1520220030906" duration="4849000" />
+      <workItem from="1520220030906" duration="5388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4849000" />
+    <option name="totallyTimeSpent" value="5388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -580,18 +452,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding />
         </state>
       </provider>
